@@ -1,0 +1,51 @@
+.item {
+    position: relative;
+    padding: 2em 3em;
+    margin: 10px;
+    width: 45%;
+    border: 1px solid #37382e;
+}
+.text{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img > img {
+    height: 300px;
+    width: 300px;
+}
+.divP{
+    display: flex;
+    flex-direction: row;
+}
+.p{
+    position: relative;
+    bottom: 0;
+    font-size: 18px;
+}
+.big{
+    font-size: 24px;
+
+}
+@media (max-width: 991px) {
+    .img > img {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .advantage {
+        width: 150px;
+    }
+    .item{
+        width: 80%;
+    }
+}
+
+
+

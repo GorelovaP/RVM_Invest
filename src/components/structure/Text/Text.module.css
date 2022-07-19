@@ -1,0 +1,15 @@
+.wrapper{
+    display: block;
+    margin: 0 auto;
+    padding: 2.5em 36px;
+    min-height: 100%;
+    max-width: 1170px;
+}
+.wrapper ul li {
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+.wrapper ul li:before{
+    content: "—";
+}

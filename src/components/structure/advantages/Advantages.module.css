@@ -1,0 +1,44 @@
+.block {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../../../assets/forest.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    min-height: 100%;
+    max-width: 1170px;
+    /*background-color: #000;*/
+}
+
+.h2 {
+    margin: 0 20px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.p {
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+
+}
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

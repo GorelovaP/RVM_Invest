@@ -1,0 +1,10 @@
+.videoController {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    z-index: 2;
+}
+.videoController > img{
+    height: 45px;
+    width: 45px;
+}

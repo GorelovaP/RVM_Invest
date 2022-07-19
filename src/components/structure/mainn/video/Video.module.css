@@ -1,0 +1,17 @@
+.videoWrapper {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+}
+
+.video > video{
+    object-fit: cover;
+}
+
+
+@media (max-width: 830px) {
+
+    .video > video{
+        height: 100vh!important;
+    }
+}

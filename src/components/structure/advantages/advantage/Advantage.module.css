@@ -1,0 +1,22 @@
+.advantage {
+    height: 50%;
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+}
+.text{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 768px) {
+    .advantage {
+        width: 150px;
+    }
+}
+
+
+

@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {Header} from "./components/structure/header/Header";
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {stateType} from "./Redux/State"
+import {About} from "./components/routing/About";
+import {MainPage} from "./components/routing/MainPage";
+import {Footer} from "./components/structure/footer/Footer";
+import {Technologies} from "./components/routing/Technologies";
+import {Products} from "./components/routing/Products";
+import {ContactsPage} from "./components/routing/ContactsPage";
+
+type AppType = {
+    state: stateType;
+}
+function App( props: AppType) {
+    return (
+
+        <BrowserRouter>
+            <Header/>
+            <Routes>
+                <Route path="/" element={<MainPage state={props.state}/>}/>
+                <Route path="/About" element={<About state={props.state}/>}/>
+                <Route path="/Technologies" element={<Technologies  state={props.state}/>}/>
+                <Route path="/Products" element={<Products catalog={props.state.catalog}/>}/>
+                <Route path="/Contacts" element={<ContactsPage texts={props.state.texts[2]}/>}/>
+            </Routes>
+           <Footer />
+
+
+
+        </BrowserRouter>
+
+    );
 }
 
 export default App;

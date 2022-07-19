@@ -1,0 +1,85 @@
+.footer {
+    padding: 10px;
+    background-color: #212529;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin: 20px 10px;
+    position: relative;
+    z-index: 11;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    max-width: 510px;
+    color: white;
+    margin-left: 35px;
+}
+
+.tel:before {
+    content: url("../../../assets/tell.svg");
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.socialNetworks img {
+    margin: 5px;
+}
+.tel{
+    margin-right: 10px;
+}
+.telUp{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .footer{
+        height: 100px;
+    }
+    .logo{
+        font-size: 14px;
+    }
+    .information{
+        font-size: 8px;
+        margin-left: 15px;
+        max-width: 140px;
+    }
+    .tel{
+        font-size: 10px;
+    }
+    .tel:before{
+        display: none;
+    }
+    .socialNetworks{margin-top: 0px;}
+
+    .socialNetworks img {
+        width: 30px;
+        padding: 2px;
+        margin: 5px;
+    }
+    .up{
+        width: 20px;
+    }
+}

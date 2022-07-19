@@ -1,0 +1,77 @@
+.modal, .modalActive {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.modal {
+    transform: scale(0);
+}
+
+.modalActive {
+    transform: scale(1);
+}
+
+.context {
+    z-index: 100;
+    padding: 20px;
+    background-color: #fff;
+
+
+}
+.exit{
+    color: red;
+    position: relative;
+    left: 97%;
+    z-index: 10001;
+}
+
+
+.icon {
+    position: relative;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.h2 {
+    padding: 2em 1em 1em 1em;
+    text-align: center;
+}
+
+.p {
+    padding: 0 0.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+.context{
+   max-width:1000px ;
+}
+}
+
+@media (max-width: 800px) {
+    .h2 {
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .h2 {
+        padding: 0.5em 0.3em 0.3em 0.3em;
+    }
+
+    .icon {
+        height: 80px;
+    }
+
+}
