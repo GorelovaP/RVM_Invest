@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/RVM_Invest/static/css/main.2f527678.css",
+    "main.js": "/RVM_Invest/static/js/main.3fc69f3f.js",
+    "static/js/787.a4b2a71c.chunk.js": "/RVM_Invest/static/js/787.a4b2a71c.chunk.js",
+    "static/media/video.mp4": "/RVM_Invest/static/media/video.29eb0af618d840e1fb71.mp4",
+    "static/media/forest.png": "/RVM_Invest/static/media/forest.b16892335e5c797d1c89.png",
+    "static/media/bigForest.png": "/RVM_Invest/static/media/bigForest.934574288814a559eaf7.png",
+    "static/media/img3.png": "/RVM_Invest/static/media/img3.81e3f48d0fccc02fa624.png",
+    "static/media/bg2jpeg.jpeg": "/RVM_Invest/static/media/bg2jpeg.5768cf918aa062ab9cc9.jpeg",
+    "static/media/block.png": "/RVM_Invest/static/media/block.ff6263816eeaf5b07e14.png",
+    "static/media/footer.png": "/RVM_Invest/static/media/footer.05245c92585f0df89b33.png",
+    "static/media/img2.jpg": "/RVM_Invest/static/media/img2.99f50f89647f0fadf715.jpg",
+    "static/media/img1.jpg": "/RVM_Invest/static/media/img1.63cc5c09d4b261326b15.jpg",
+    "static/media/raspalki.png": "/RVM_Invest/static/media/raspalki.8da034d43ec8abfe90e5.png",
+    "static/media/brus.png": "/RVM_Invest/static/media/brus.7ce3d997bd5dc4b2b02b.png",
+    "static/media/slide1.jpg": "/RVM_Invest/static/media/slide1.560a0ae6a81ebbb0fb20.jpg",
+    "static/media/бри.jpg": "/RVM_Invest/static/media/бри.71fd8c29e28568c2aed7.jpg",
+    "static/media/stran2.png": "/RVM_Invest/static/media/stran2.ea010e0c89ca9dd71797.png",
+    "static/media/logo.svg": "/RVM_Invest/static/media/logo.273fe550868acb0f07bd.svg",
+    "static/media/obshivka.jpg": "/RVM_Invest/static/media/obshivka.e09a7ce71af5ef2944aa.jpg",
+    "static/media/nalichnik-derevjannyj.jpg": "/RVM_Invest/static/media/nalichnik-derevjannyj.4d934dd5aad58b6e26a5.jpg",
+    "static/media/doska.jpg": "/RVM_Invest/static/media/doska.7cd0ef7d07e601203fac.jpg",
+    "static/media/tell.svg": "/RVM_Invest/static/media/tell.8391e03f7eed6dba7cae.svg",
+    "static/media/logo.svg.png": "/RVM_Invest/static/media/logo.svg.b807a5979db3f34c3e32.png",
+    "index.html": "/RVM_Invest/index.html",
+    "main.2f527678.css.map": "/RVM_Invest/static/css/main.2f527678.css.map",
+    "main.3fc69f3f.js.map": "/RVM_Invest/static/js/main.3fc69f3f.js.map",
+    "787.a4b2a71c.chunk.js.map": "/RVM_Invest/static/js/787.a4b2a71c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f527678.css",
+    "static/js/main.3fc69f3f.js"
+  ]
+}
