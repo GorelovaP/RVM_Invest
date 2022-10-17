@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import {Header} from "./components/structure/header/Header";
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { HashRouter, Route, Routes} from 'react-router-dom';
 import {stateType} from "./Redux/State"
 import {About} from "./components/routing/About";
 import {MainPage} from "./components/routing/MainPage";
@@ -14,23 +14,21 @@ import {ContactsPage} from "./components/routing/ContactsPage";
 type AppType = {
     state: stateType;
 }
-function App( props: AppType) {
+
+function App(props: AppType) {
     return (
 
-        <BrowserRouter>
+        <HashRouter>
             <Header/>
             <Routes>
-                <Route path="/" element={<MainPage state={props.state}/>}/>
+                <Route path="*" element={<MainPage state={props.state}/>}/>
                 <Route path="/About" element={<About state={props.state}/>}/>
-                <Route path="/Technologies" element={<Technologies  state={props.state}/>}/>
+                <Route path="/Technologies" element={<Technologies state={props.state}/>}/>
                 <Route path="/Products" element={<Products catalog={props.state.catalog}/>}/>
                 <Route path="/Contacts" element={<ContactsPage texts={props.state.texts[2]}/>}/>
             </Routes>
-           <Footer />
-
-
-
-        </BrowserRouter>
+            <Footer/>
+        </HashRouter>
 
     );
 }

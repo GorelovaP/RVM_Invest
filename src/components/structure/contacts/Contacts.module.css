@@ -105,7 +105,7 @@ li .a:hover {
         position: relative;
         margin: 0 auto;
         width: 95%;
-        right: 0px;
+        right: 0;
     }
 }
 @media (max-width: 568px){
