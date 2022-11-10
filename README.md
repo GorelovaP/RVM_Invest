@@ -1,5 +1,3 @@
-#<hr/>
-
 ## Projects Title:
 
 Business card website RVM-INVEST
