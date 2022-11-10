@@ -4,7 +4,14 @@
     bottom: 5%;
     z-index: 2;
 }
-.videoController > img{
+
+.videoController > img {
     height: 45px;
     width: 45px;
+}
+
+@media (max-width: 820px) {
+    .videoController {
+        display: none;
+    }
 }

@@ -4,7 +4,6 @@ import {Link, useMatch} from 'react-router-dom';
 import {NavBar} from "./navBar/NavBar";
 import {Hamburger} from "./hamburger/Hamburger";
 
-
 export const Header = () => {
     const match = useMatch('/:routeKey');
     const [scroll, setScroll] = useState(false);
@@ -13,7 +12,7 @@ export const Header = () => {
             setScroll(window.scrollY > 50);
         });
     }, []);
-    const componentDidMount= () =>{
+    const componentDidMount = () => {
         window.scrollTo({
             top: 0,
             left: 0,
@@ -24,6 +23,12 @@ export const Header = () => {
     const [active, setActive] = useState<boolean>(false);
     const letOpen = () => setActive(!active);
 
+    const setClose = () => {
+        if (active) {
+            setActive(false)
+        }
+    }
+
     return (
         <div className={`${s.header} ${!match?.params.routeKey && !scroll ? s.headerHome : ''}`}>
             <div className={s.container}>
@@ -33,7 +38,7 @@ export const Header = () => {
                         <div className={s.logo}><b>РВМ-ИНВЕСТ</b></div>
                     </Link>
                 </div>
-                <NavBar open={active}/>
+                {active && <NavBar callback={setClose} open={active}/>}
                 <div>
                     <a className={s.tel} href="tel:375 177 764295">+375 177 764295</a>
                 </div>

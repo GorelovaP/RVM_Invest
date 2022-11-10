@@ -47,39 +47,55 @@
 .socialNetworks img {
     margin: 5px;
 }
-.tel{
+
+.tel {
     margin-right: 10px;
 }
-.telUp{
+
+.telUp {
     display: flex;
     align-items: center;
 }
+
+.up {
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
-    .footer{
+    .footer {
         height: 100px;
     }
-    .logo{
+
+    .logo {
         font-size: 14px;
     }
-    .information{
+
+    .information {
         font-size: 8px;
         margin-left: 15px;
         max-width: 140px;
     }
-    .tel{
+
+    .tel {
         font-size: 10px;
     }
-    .tel:before{
+
+    .tel:before {
         display: none;
     }
-    .socialNetworks{margin-top: 0;}
+
+    .socialNetworks {
+        margin-top: 0;
+    }
 
     .socialNetworks img {
         width: 30px;
         padding: 2px;
         margin: 5px;
     }
-    .up{
+
+    .up {
+        cursor: pointer;
         width: 20px;
     }
 }

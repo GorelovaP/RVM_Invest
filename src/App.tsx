@@ -21,7 +21,7 @@ function App(props: AppType) {
         <HashRouter>
             <Header/>
             <Routes>
-                <Route path="*" element={<MainPage state={props.state}/>}/>
+                <Route path="/*" element={<MainPage state={props.state}/>}/>
                 <Route path="/About" element={<About state={props.state}/>}/>
                 <Route path="/Technologies" element={<Technologies state={props.state}/>}/>
                 <Route path="/Products" element={<Products catalog={props.state.catalog}/>}/>

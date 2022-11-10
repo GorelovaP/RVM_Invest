@@ -1,15 +1,11 @@
 import React from 'react';
 import s from "./Main.module.css"
 
-
 import video from "../../../assets/video.mp4"
 import img from "../../../assets/block.png"
 import {Video} from "./video/Video";
 
-
-type MainType = {}
-
-export const Main = (props: MainType) => {
+export const Main = () => {
     return (
         <div className={s.main}>
             <div className={s.main__inform}>
@@ -21,10 +17,9 @@ export const Main = (props: MainType) => {
                         которые при помощи современного оборудования делают производственный процесс
                         безукоризненным </p>
                     <div className={s.main__wrapper__image}>
-                        <img src={img} className={s.main__image}/>
+                        <img src={img} className={s.main__image} alt={"mainImage"}/>
                     </div>
                 </div>
-                {/*<MainInformation/>*/}
             </div>
         </div>
     );

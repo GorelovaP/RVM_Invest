@@ -11,7 +11,8 @@ type VideoType = {
 
 export const Video = (props: VideoType) => {
 
-    let [play, setPlay] = useState(true);
+    let [play, setPlay] = useState(false);
+
     const HandlePlay = () => {
         setPlay(!play);
     }
@@ -20,11 +21,11 @@ export const Video = (props: VideoType) => {
             <ReactPlayer
                 className={s.video}
                 url={props.video}
-                playing={play}
                 controls={false}
                 loop={true}
                 height='65vh'
                 width='100%'
+                playing={play}
             />
             <VideoControls callback={HandlePlay} play={play}/>
         </div>
