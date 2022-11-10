@@ -38,7 +38,7 @@ export const Header = () => {
                         <div className={s.logo}><b>РВМ-ИНВЕСТ</b></div>
                     </Link>
                 </div>
-                {active && <NavBar callback={setClose} open={active}/>}
+                <NavBar callback={setClose} open={active}/>
                 <div>
                     <a className={s.tel} href="tel:375 177 764295">+375 177 764295</a>
                 </div>
