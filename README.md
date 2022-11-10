@@ -8,9 +8,10 @@ Business card website RVM-INVEST
 
 ## About The Project:
 
-This application is a business card website for the commercial organization which was created by my own design.
+This application is a business card website for the commercial organization, that was created by my own design.
 
-The site saves information from the form in a Google sheet for further analysis by the company manager (it was the customer's wish).
+On the website, a user can get acquainted with the history of the company, learn about products and production technologies. He can also find the supplier's contacts or leave his own in the feedback form.
+The site saves information from the feedback form in a Google sheet for further analysis by the company manager (it was the customer's wish).
 
 <hr/>
 
@@ -27,9 +28,9 @@ The site saves information from the form in a Google sheet for further analysis 
 
 ## Usage:
 
-The user just needs to get acquainted with the information,
+A user just needs to get acquainted with the information,
 that is presented on different pages of the site.
-The user can leave his contact in the feedback form and the manager of the company will contact.
+A user can leave his contact in the feedback form and the manager of the company will contact.
 
 <hr/>
 
